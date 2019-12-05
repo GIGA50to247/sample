@@ -1,0 +1,91 @@
+body{
+	user-select:none;
+	border:double 15px;
+	border-color:red;
+	height:579px;
+	font-family:'calibri';
+	background-color:#009999;
+	}
+.battletanks{
+	margin-top: 1%;
+	margin-left: 33%;
+	font-size: 80px;
+	color: black;
+	font-family: impact;
+}
+
+.battletanks:hover{
+	color: red;
+}
+
+/*Player 1*/
+#player1 {
+	border: solid 5px black;
+	border-radius:10px;
+	position:relative;
+	margin-left:10%;
+	width:400px;
+	height:350px;
+	margin-top: -15px;
+}
+#player1 box1 {
+	position: absolute;
+	box-sizing: border-box;
+	background-color:green;
+	border: 1px solid #000000;
+	width:50px;
+	height:50px;
+}
+
+/*Player 2*/
+#player2 {
+	border: solid 5px black;
+	border-radius:10px;
+	position:relative;
+	margin-left:60%;
+	margin-top: -27%;
+	width: 400px;
+	height:350px;
+}
+#player2 box2 {
+	position: absolute;
+	box-sizing: border-box;
+	background-color:green;
+	border: 1px solid #000000;
+	width:50px;
+	height:50px;
+}
+
+/*tank icon*/
+.body{
+	border:3px groove black;
+	border-style:box-sizing;
+	background-color:green;
+	height:70px;
+	width:75px;
+	margin-top:12px;
+	margin-left:20px;
+}
+
+.circle{
+	border:2px solid black;
+	border-radius:50%;
+	background-color:green;
+	color:white;
+	height:50px;
+	width:60px;
+	text-align:center;
+	margin-top:7px;
+	padding-top:3px;
+	margin-left:2px;
+}
+
+.nose{
+	border:2px solid black;
+	height: 6px;
+	width:40px;
+	margin-left:60px;
+	margin-top:-33px;
+	background-color:green;
+}
+

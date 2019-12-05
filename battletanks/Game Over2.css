@@ -1,0 +1,59 @@
+body{
+	background-color: #006666;
+}
+.page{
+	border:15px double;
+	border-color:red;
+	height:575px;
+	user-select:none;
+}
+.victory{
+	margin-top: 2%;
+	margin-left: 25%;
+	font-size: 90px;
+	color: black;
+	font-family: impact;
+	}
+
+.victory:hover{
+	color: red;
+	}
+
+.again{
+	height: 10%;
+	width: 15%;
+	border-style: solid;
+	border-radius: 50%;
+	font-size: 42px;
+	padding: 20px;
+	color: black;
+	margin-top: 10%;
+	margin-left: 40%;
+	cursor: pointer;
+	border-width: 5px;
+	user-select: none;
+	text-align: center;
+	}
+
+.again:active{
+	color: red;
+	}
+
+.exit{
+	height: 10%;
+	width: 15%;
+	border-style: solid;
+	border-radius: 50%;
+	font-size: 50px;
+	padding: 20px;
+	color: black;
+	margin-top: 3%;
+	margin-left: 40%;
+	cursor: pointer;
+	border-width: 5px;
+	text-align: center;
+	}
+	
+.exit:active{
+	color: red;
+	}
