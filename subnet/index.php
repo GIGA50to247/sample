@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mid</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+    <script src="midterm.js"></script>
+</head>
+<body bgcolor="#2196ad">
+    <select id="mask_slash">
+        <option value="21">/21</option>
+        <option value="22">/22</option>
+        <option value="23">/23</option>
+        <option value="24">/24</option>
+        <option value="25">/25</option>
+        <option value="26">/26</option>
+        <option value="27">/27</option>
+        <option value="28">/28</option>
+        <option value="29">/29</option>
+        <option value="30">/30</option>
+    </select>
+    <select id="mask_ip">
+        <option value="255.255.248.0">255.255.248.0</option>
+        <option value="255.255.252.0">255.255.252.0</option>
+        <option value="255.255.254.0">255.255.254.0</option>
+        <option value="255.255.255.0">255.255.255.0</option>
+        <option value="255.255.255.128">255.255.255.128</option>
+        <option value="255.255.255.192">255.255.255.192</option>
+        <option value="255.255.255.224">255.255.255.224</option>
+        <option value="255.255.255.240">255.255.255.240</option>
+        <option value="255.255.255.248">255.255.255.248</option>
+        <option value="255.255.255.252">255.255.255.252</option>
+    </select>
+
+<!--
+  <select id="number_of_hosts">
+        <option value="2046">2046</option>
+        <option value="1022">1022</option>
+        <option value="510">510</option>
+        <option value="254">254</option>
+        <option value="126">126</option>
+        <option value="62">62</option>
+        <option value="30">30</option>
+        <option value="14">14</option>
+        <option value="6">6</option>
+        <option value="2">2</option>
+    </select>
+-->
+    <input type="text" id="number_of_clients" placeholder="number of clients">
+
+</body>
+</html>
